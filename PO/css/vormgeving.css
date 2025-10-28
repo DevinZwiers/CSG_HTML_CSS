@@ -11,7 +11,13 @@ body {
     padding-left: 10%;
 }
 
-.Beginpagina {
-margin: 40px
-
+.beginpagina {
+    display: flex;
+    
 }
+    
+a:hover, li:hover {
+    background-color: #ce3737;
+    font-variant: small-caps;
+}
+
