@@ -8,38 +8,68 @@ body {
     color: #c8c3bf;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-    
-a:hover, li:hover {
-    background-color: #ffffff;
-    font-variant: small-caps;
-}
 
 #container {
   padding: 10px;
-  border: 3px, solid, black;
+  border: 3px solid black;
   background-color: rgb(156, 43, 43);
+}
+
+.beginpagina {
+  list-style: none; 
+  display: flex; 
+  gap: 20px; 
+  padding: 0;
+  margin: 0;
+  justify-content: center; 
+}
+
+.beginpagina li a {
+   display: block;
+    padding: 15px 40px; 
+    text-decoration: none; 
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #a83232; 
+    border-radius: 8px;
+}
+
+.beginpagina li a:hover {
+    background-color: #ff4c4c; 
 }
 
 #homeplaatje {
    background-image: url(../images/chinese1.jpg); 
-   background-color: red;
-    height: 700px; 
+    height: 800px; 
     width: auto; 
     background-size: cover;
-    background-position: right top;
-    /* object-fit: cover; 
-    filter: brightness(70%);
-    background-repeat: no-repeat; */
+    background-position: right center;
+    filter: brightness(30%);
 }
  
 .tekstplaatje {
-  position: absolute;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ text-align: center;
+ color: white;
 }
-    
-#containerplaatje {
-  position: relative;
+
+.tekstplaatje h1 { 
+  margin: 0;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.tekstplaatje p {
+  margin: 10px;
+  font-size: 18px;
+  color: rgb(255, 253, 253);
 }
   
+
+
 
     
 
