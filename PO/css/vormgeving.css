@@ -41,33 +41,28 @@ body {
 
 #homeplaatje {
   background-image: url(../images/chinese1.jpg); 
-  height: 750px; 
+  height: 1000px; 
   width: auto; 
   background-size: cover;
   background-position: right center;
   position: relative;
-   
 }
  
 .tekstplaatje { 
- top: 40%;
- left: 50%;
- text-align: center;
- color: white;
+  text-align: center;
+  color: white;
 }
 
 .tekstplaatje h1 { 
-  top: -50px;
   margin: 0;
-  font-size: 40px;
+  font-size: 60px;
   color: #ffffff;
   
 }
 
 .tekstplaatje p {
-  top: 50px
   margin: 10px;
-  font-size: 18px;
+  font-size: 40px;
   color: white;
 }
 
@@ -81,21 +76,22 @@ body {
   justify-content: center;
   gap: 20px;
   position: relative;
-  top: 530px;
-  z-index: 2;
+  top: 760px;
 }
 
 .blokjes {
-  width: 200px;
+  width: 250px;
   height: 200px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(231, 216, 216);
   margin: 100px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  color: white;
+  color: rgb(12, 12, 12);
   text-align: center;
+  border: black solid;
+  border-radius: 5px;
 }
 
 .blokjes h2 {
@@ -107,6 +103,17 @@ body {
 .blokjes p {
   font-size: 14px;
   margin-top: 10px;
+}
+
+.blokjes a {
+  text-decoration: none;
+  display: block;
+  padding: 15px 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #000000;
+  border-radius: 8px;
 }
 
   
