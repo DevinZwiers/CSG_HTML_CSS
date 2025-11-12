@@ -1,12 +1,12 @@
 html, body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background: #ffffff;
-    color: #c8c3bf;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #ffffff;
+  color: #c8c3bf;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #container {
@@ -25,30 +25,31 @@ body {
 }
 
 .beginpagina li a {
-   display: block;
-    padding: 15px 40px; 
-    text-decoration: none; 
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: #a83232; 
-    border-radius: 8px;
+  display: block;
+  padding: 15px 40px; 
+  text-decoration: none; 
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #a83232; 
+  border-radius: 8px;
 }
 
 .beginpagina li a:hover {
-    background-color: #ff4c4c; 
+  background-color: #ff4c4c; 
 }
 
 #homeplaatje {
-   background-image: url(../images/chinese1.jpg); 
-    height: 750px; 
-    width: auto; 
-    background-size: cover;
-    background-position: right center;
+  background-image: url(../images/chinese1.jpg); 
+  height: 750px; 
+  width: auto; 
+  background-size: cover;
+  background-position: right center;
+  position: relative;
    
 }
  
-.tekstplaatje {
+.tekstplaatje { 
  top: 40%;
  left: 50%;
  text-align: center;
@@ -56,6 +57,7 @@ body {
 }
 
 .tekstplaatje h1 { 
+  top: -50px;
   margin: 0;
   font-size: 40px;
   color: #ffffff;
@@ -63,6 +65,7 @@ body {
 }
 
 .tekstplaatje p {
+  top: 50px
   margin: 10px;
   font-size: 18px;
   color: white;
@@ -76,6 +79,10 @@ body {
 #containerblokjes {
   display: flex;
   justify-content: center;
+  gap: 20px;
+  position: relative;
+  top: 530px;
+  z-index: 2;
 }
 
 .blokjes {
@@ -83,6 +90,23 @@ body {
   height: 200px;
   background-color: rgb(0, 0, 0);
   margin: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.blokjes h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.blokjes p {
+  font-size: 14px;
+  margin-top: 10px;
 }
 
   
