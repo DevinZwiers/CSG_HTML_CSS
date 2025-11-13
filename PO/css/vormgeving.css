@@ -163,17 +163,12 @@ body {
   padding-bottom: 10px;
   margin-bottom: 30px;
 }
-    
-.menuitems {
-  gap: 30px;
-}
 
 .menuitem {
   background-color: rgb(255, 255, 255);
   padding: 15px;
   border-radius: 10px;
   border: 1px solid #dbdada;
- 
 }
 
 .menuitem h3 {
