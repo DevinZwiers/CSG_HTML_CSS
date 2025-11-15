@@ -189,3 +189,9 @@ body {
   font-size: 18px;
 }
 
+.menuitem img {
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+ 
+
